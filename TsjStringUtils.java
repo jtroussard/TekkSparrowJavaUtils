@@ -19,7 +19,6 @@ public class TsjStringUtils {
         
         for (int i = 0; i < input.length(); i++) {
             current = input.charAt(i);
-            System.out.println(current + " " + previous);
             if (!current.equals(target)) {
                 sb.append(current);
             } else {
